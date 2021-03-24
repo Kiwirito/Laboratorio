@@ -16,8 +16,14 @@ elif x == "O":
 elif x == "U":
     print("Escojiste la quinta")
 ## Ejercicio 2 Bucle Anidado
-plai = "Horizon Zero Dawn"
+plai = input("Ingrese una palabra= ")
 i = 0
 y = len(plai)
+x = 1
 for i in range(y):
     print(plai[:i + 1])
+    for k in range(1):
+        print("*"*x, "= {}".format(x))
+
+        x += 1
+print("Numeor total de caracteres es = ", len(plai))
