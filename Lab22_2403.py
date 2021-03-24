@@ -26,4 +26,4 @@ for i in range(y):
         print("*"*x, "= {}".format(x))
 
         x += 1
-print("Numeor total de caracteres es = ", len(plai))
+print("Numero total de caracteres es = ", len(plai))
